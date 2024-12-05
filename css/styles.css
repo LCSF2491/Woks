@@ -232,6 +232,7 @@ aside{
     border: 2px solid #000;
     width: 95%;
     height: 50%;
+    
 }
 
 /* Style rules for footer content */
@@ -439,6 +440,8 @@ ul{
    .map{
     width: 600px;
     height: 450px;
+    
+    margin: 0 auto;
    }
 
    /* Tablet Viewport: Style rules for table */

@@ -8,6 +8,10 @@
 }
 
 /*Table */
+.table-container{
+    padding: 0 70px;
+}
+
 th,td{
     border: 1px solid #000;
     padding: 20px;
