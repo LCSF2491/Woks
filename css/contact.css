@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 15px; /* Space between grid items */
+    
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-column {
+    grid-column: span 4; /* Make the message textarea span both columns */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%; /* Make inputs take full width */
+    padding: 8px; /* Add some padding */
+    margin-top: 5px; /* Space between label and input */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+}
